@@ -68,6 +68,16 @@ Under Heroku → Twilio-clarifai(the app) → settings → Config Vars → add t
 
 IT WORKS NOW!
 
+## how it all works
+
+A flask app on Heroku, is deployed with an `SMS` end point.
+Twilio hooks into that `SMS` end point
+An SMS gets intercepted by Twilio
+Twilio sends POST requests to flask
+Flask returns the AI image
+Sent back to Twilio
+Twilio pushes to my phone
+
 ## Src notes
 
 https://www.youtube.com/watch?v=18KQIPhiVdc → twilio clarifai
