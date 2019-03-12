@@ -58,6 +58,10 @@ should take you to heroku to login
 
 \$ get push heroku-master
 
+\$ Cat Procfile
+
+Not sure what this does
+
 ## Src notes
 
 https://www.youtube.com/watch?v=18KQIPhiVdc → twilio clarifai
