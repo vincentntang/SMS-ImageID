@@ -1,3 +1,10 @@
+## Refreshing
+
+You need to run this everytime you refresh app
+
+$ source env/Scripts/activate
+\$ export CLARIFAI_API_KEY=.....YOUR-API-KEY.....
+
 ## Quickstart
 
 Have anaconda installed
@@ -44,6 +51,12 @@ open git bash
 \$ heroku login
 
 should take you to heroku to login
+
+\$ heroku git:remote -a twilio-clarifai
+
+"Twilio-clarifai" is the name of your app on heroku
+
+\$ get push heroku-master
 
 ## Src notes
 
