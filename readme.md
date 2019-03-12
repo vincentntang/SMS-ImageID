@@ -62,6 +62,12 @@ should take you to heroku to login
 
 Not sure what this does
 
+Under Heroku → Twilio-clarifai(the app) → settings → Config Vars → add the following as
+{key | value} →
+{CLARIFAI_API_KEY | ....your-api-key....}
+
+IT WORKS NOW!
+
 ## Src notes
 
 https://www.youtube.com/watch?v=18KQIPhiVdc → twilio clarifai
