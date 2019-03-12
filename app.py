@@ -22,7 +22,7 @@ def sms_reply():
         # Grab the image URL from the request body.
         image_url = request.form['MediaUrl0']
         relevant_tags = get_relevant_tags(image_url)
-        resp.message('n'.join(relevant_tags))
+        resp.message('n\'.join(relevant_tags))
     else:
         resp.message('Please send an image.')
 
