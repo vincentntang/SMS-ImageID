@@ -13,14 +13,19 @@ def index():
 # Route to await a POST hook from twilio
 @app.route('/sms', methods=['POST'])
 def sms_reply():
+    # Create a MessagingResponse object to generate TwiML.
     resp = MessagingResponse()
 
-    if request.form('NumMedia') != '0' :
+    # See if the number of images in the text message is greater than zero.
+    if request.form['NumMedia'] != '0':
+
+        # Grab the image URL from the request body.
         image_url = request.form['MediaUrl0']
-        relevant_tags = get_relevant_tags(image_url) # get tags
-        resp.message('\n'.join(relevant_tags)) # combine tags
+        relevant_tags = get_relevant_tags(image_url)
+        resp.message('n'.join(relevant_tags))
     else:
-        resp.message('Please send an image')
+        resp.message('Please send an image.')
+
     return str(resp)
 
 if __name__ == '__main__':
