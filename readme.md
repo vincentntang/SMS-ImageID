@@ -5,6 +5,13 @@ You need to run this everytime you refresh app
 $ source env/Scripts/activate
 \$ export CLARIFAI_API_KEY=.....YOUR-API-KEY.....
 
+## MacOS 
+
+export PATH=~/anaconda3/bin:$PATH
+conda --v
+conda install virtualenv
+pip uninstall virtualenv
+
 ## Quickstart
 
 Have anaconda installed
