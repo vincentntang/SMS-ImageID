@@ -1,4 +1,4 @@
-![](https://i.imgur.com/RmOSgCF.png)
+![](https://i.imgur.com/83R3fYd.png)
 
 Twilio Python Clarifai is a lightweight flask app.
 
