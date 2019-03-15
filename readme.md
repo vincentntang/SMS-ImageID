@@ -4,7 +4,7 @@ Twilio Python Clarifai is a lightweight flask app.
 
 Send over a SMS text with an image to a designated phone number.
 
-In the response, you will get a respond based on with Clarifai API endpoint thinks the image is
+It will send a response based on what the Clarifai API thinks the image is
 
 ## Installation
 
