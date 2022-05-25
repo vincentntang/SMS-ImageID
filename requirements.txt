@@ -19,7 +19,7 @@ ngrok==0.0.1
 pigar==0.9.1
 pipreqs==0.4.9
 protobuf==3.7.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 PySocks==1.6.8
 pytz==2018.9
 requests==2.21.0
